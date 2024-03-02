@@ -9,7 +9,7 @@ import {
   } from "react-router-dom";
   import '../App.css';
   
-  export default function ContactMe() {
+  export default function Habilities() {
       return (
           <>
           <div >

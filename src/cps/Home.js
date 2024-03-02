@@ -2,15 +2,11 @@ import logo from '../logo.svg';
 import '../App.css';
 
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
   Link,
 } from "react-router-dom";
 
 
-function Home() {
+export default function Home() {
   return (
       <>
        
@@ -25,16 +21,14 @@ function Home() {
               </h1>
               <h5
               >
-              Software engineer and AI generalist
+              Software Engineer and AI Generalist
               </h5>
           </div>
 
           <div>
 
-
               <a
                 className="App-link anchor-element"
-                href="https://reactjs.org"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -44,7 +38,6 @@ function Home() {
 
               <a
                 className="App-link anchor-element"
-                href="https://reactjs.org"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -53,7 +46,6 @@ function Home() {
 
               <a
                 className="App-link anchor-element"
-                href="https://reactjs.org"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -64,7 +56,6 @@ function Home() {
 
               <a
                 className="App-link anchor-element"
-                href="https://reactjs.org"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -73,7 +64,6 @@ function Home() {
 
               <a
                 className="App-link anchor-element"
-                href="https://reactjs.org"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -87,5 +77,3 @@ function Home() {
      </>
   );
 }
-
-export default Home;
