@@ -1,12 +1,10 @@
 import './App.css';
 
-import {
-  Routes,
-} from "react-router-dom";
 
+import AppRoutes from './Routes';
 
 export default function App() {
   return (
-    <Routes/>
+    <AppRoutes />
   );
 }

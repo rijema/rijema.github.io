@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import { Route, Navigate, Routes, BrowserRouter as Router } from "react-router-dom";
 
 import Home from "./cps/Home";
 import About from "./cps/About";
@@ -9,7 +9,7 @@ import Articles from "./cps/Articles";
 import Education from "./cps/Education";
 import Habilities from "./cps/Habilities";
 
-const Routes = () => {
+const AppRoutes = () => {
    return(
     <Router>
         <Routes>
@@ -26,6 +26,6 @@ const Routes = () => {
    )
 }
 
-export default Routes;
+export default AppRoutes;
 
 
